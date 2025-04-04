@@ -1,0 +1,24 @@
+**Flow Counter License Agreement**
+
+**IMPORTANT**: Please read the following terms and conditions carefully before installing or using Flow Counter. By installing and using this software, you agree to comply with the terms set forth in this agreement.
+
+**1. License Grant**  
+Flow Counter is provided as free software for personal use only. You are granted a non-exclusive, non-transferable license to use Flow Counter for personal purposes.
+
+**2. Restrictions**  
+- You may not distribute, sell, lease, or sublicense this software without prior permission from the developer.  
+- You may not reverse engineer, decompile, or disassemble the software.
+
+**3. No Warranty**  
+Flow Counter is provided "as-is" without any warranty or representation, express or implied. The developer makes no claims regarding the software's accuracy, reliability, or performance. You use this software at your own risk.
+
+**4. Limitation of Liability**  
+In no event shall the developer be liable for any damages, including but not limited to incidental, consequential, or special damages, arising out of the use or inability to use Flow Counter, even if the developer has been advised of the possibility of such damages.
+
+**5. Updates and Support**  
+Flow Counter is provided without updates or support. However, updates may be made available at the developer's discretion.
+
+---
+
+**Developed by Ahmad Noori for the George Mason 2025 Hackathon**  
+LinkedIn: [https://www.linkedin.com/in/ahmad-noori1103]
