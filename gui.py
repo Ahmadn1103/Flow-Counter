@@ -1,10 +1,18 @@
 from pathlib import Path
 from tkinter import Canvas, Button, PhotoImage
 import customtkinter as ctk
-import os
+import os, sys
+
+def resource_path(relative_path):
+    try:
+        base_path = Path(sys._MEIPASS)
+    except AttributeError:
+        base_path = Path(__file__).parent
+    return base_path / relative_path
+
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\AhmadN\OneDrive\Desktop\hackfax\test\build\assets\frame0")
+ASSETS_PATH = resource_path("assets/frame0")
 
 
 def relative_to_assets(path: str) -> Path:
@@ -15,22 +23,25 @@ base_path = os.path.dirname(__file__)
 
 window = ctk.CTk()
 window.title ("Flow Counter")
-window.geometry("323x737")
-window.configure(bg = "#FFFFFF")
+window.geometry("409x915")
+window.configure(bg="#121422")
+window.eval('tk::PlaceWindow . center')
+
 
 # Logo
-icon_path = os.path.join(base_path, "assets", "frame0", "logo.ico")
+icon_path = resource_path("assets/frame0/logo.ico")
 window.iconbitmap(default=icon_path)
+
 
 
 canvas = Canvas(
     window,
-    bg = "#FFFFFF",
-    height = 915,
-    width = 409,
-    bd = 0,
-    highlightthickness = 0,
-    relief = "ridge"
+    bg="#121422",
+    height=915,
+    width=409,
+    bd=0,
+    highlightthickness=0,
+    relief="ridge"
 )
 
 # Font Location
