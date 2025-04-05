@@ -1,3 +1,5 @@
+![Image](https://github.com/user-attachments/assets/17b10191-1f20-4d9c-bb15-8d23141652c3)
+
 # Flow Counter
 
 Flow Counter is a minimal, glowing productivity app that helps users track focused work sessions with a simple visual counter. Designed for speed, simplicity, and aesthetic appeal, it’s ideal for students, developers, and anyone who wants to stay in a flow state.
