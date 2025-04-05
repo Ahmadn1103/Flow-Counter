@@ -23,7 +23,7 @@ base_path = os.path.dirname(__file__)
 
 window = ctk.CTk()
 window.title ("Flow Counter")
-window.geometry("409x915")
+window.geometry("323x737")
 window.configure(bg="#121422")
 window.eval('tk::PlaceWindow . center')
 
